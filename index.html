@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="rps.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Rock-Paper-Scissors</h1>
+    <div id="container">
+        <div class = "pics">    
+            <div class="options" id = "paper">✋</div>
+            <div class="options" id = "rock">✊</div>
+            <div class="options" id = "scissors">✌</div>
+        </div>
+        <div class = "texts">
+            <h2>Paper  </h2>
+            <h2>Rock</h2>
+            <h2>Scissors</h2>
+        </div>
+    </div>
+
+    <h3>
+        Player: <font id = "player"></font> 
+        <br>
+        Computer: <font id = "computer"></font>
+    </h3>
+
+    <h1 style="font-size: 5rem;" id = "results"></h1>
+    
+    <h3>
+        Player score: <font id = "pScore" style="color: rgb(0, 255, 0);"></font> 
+        <br>
+        Computer score: <font id = "cScore" style="color: red; padding-bottom: 50px;"></font>
+    </h3>
+    <script src="rps.js"></script>
+</body>
+</html>
